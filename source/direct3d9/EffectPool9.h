@@ -25,8 +25,6 @@ namespace SlimDX
 {
 	namespace Direct3D9
 	{
-		/// <summary>Applications use pools for parameters that are shared across effects.</summary>
-		/// <unmanaged>ID3DXEffectPool</unmanaged>
 		public ref class EffectPool : public ComObject
 		{
 			COMOBJECT(ID3DXEffectPool, EffectPool);

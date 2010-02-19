@@ -1517,9 +1517,6 @@ namespace SlimDX
 				void set( SlimDX::Direct3D9::PixelShader^ value );
 			}
 
-			/// <summary>
-			/// Returns the instance of the Direct3D object that created this device.
-			/// </summary>
 			property Direct3D^ Direct3D
 			{
 				SlimDX::Direct3D9::Direct3D^ get();
